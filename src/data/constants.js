@@ -32,7 +32,7 @@ import codecamp from "../images/logos/codecamp.png"
 import greatlearning from "../images/logos/greatlearning.png"
 import ieee from "../images/logos/ieee.png"
 import customerprediction from "../images/project/customerprediction.png"
-
+import ICO from "../images/project/ICO.jpg"
 
 
 export const Bio = {
@@ -275,6 +275,23 @@ export const skills = [
 
 export const projects = [
   {
+    id: 2,
+    title: "Global Coffee Insights – Power BI",
+    //date: "",
+    description:
+      "Designed an interactive Power BI dashboard using data from the International Coffee Organization (ICO) to visualize global coffee production, consumption, and pricing trends. The report highlights key metrics such as top producing and consuming countries, global consumption growth, and price disparities between Arabica, Robusta, and composite indices. Advanced DAX measures were applied to calculate farmer share percentages, production-consumption balance, and average price indicators. The dashboard integrates geographic, temporal, and comparative visualizations to tell the story of how coffee flows from producers to consumers worldwide, uncovering insights into trade patterns, price volatility, and market dominance. Styled with a coffee-themed aesthetic, it blends data storytelling with design, making analytics both informative and visually engaging.",
+    image:
+      ICO,
+    tags: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+    ],
+    category: "Visualization & BI",
+    github: "https://github.com/SarimAmir/Global-Coffee-Insights-Power-BI/blob/main/Global%20Coffee%20Insights%20%E2%80%93%20Power%20BI.pdf",
+  
+  },
+  {
     id: 1,
     title: "FYP: Zero-Day Attack Detection System using Machine Learning and Deep Learning",
     //date: "",
@@ -298,7 +315,7 @@ export const projects = [
   },
 
   {
-    id: 5,
+    id: 3,
     title: "AdventureWorks Sales Analysis – Power BI",
     //date: "",
     description:
@@ -315,7 +332,7 @@ export const projects = [
   
   },
   {
-    id: 6,
+    id: 4,
     title: "Contoso Operations Performance – Power BI",
     //date: "",
     description:
@@ -333,7 +350,7 @@ export const projects = [
     //webapp: "",
   },
   {
-    id: 7,
+    id: 5,
     title: "Household Energy Consumption Forecasting – Power BI and Python",
     //date: "",
     description:
@@ -351,7 +368,7 @@ export const projects = [
     //webapp: "",
   },
   {
-    id: 8,
+    id: 6,
     title: "Retail Weekly Sales & Payroll Analysis – Power BI",
     //date: "",
     description:
@@ -369,7 +386,7 @@ export const projects = [
     //webapp: "",
   },
   {
-    id: 9,
+    id: 7,
     title: "Customer Response Prediction using Machine Learning",
     //date: "",
     description:
@@ -389,7 +406,7 @@ export const projects = [
     //webapp: "",
   },
     {
-    id: 2,
+    id: 8,
     title: "Projects for Certification of Data Analysis using Python — FreeCodeCamp",
     //date: "",
     description:
@@ -406,7 +423,7 @@ export const projects = [
     github: "https://github.com/SarimAmir/Projects-for-Certification-of-Data-Analysis-using-Python-by-FreeCode-Camp/blob/main/README.md",
   },
   {
-    id: 3,
+    id: 9,
     title: "Data Visualization using matplot and Seaborn",
     //date: "",
     description:
@@ -422,7 +439,7 @@ export const projects = [
     github: "https://github.com/SarimAmir/Data-Visualization-using-Matplot-and-Seaborn/blob/main/README.md",
   },
   {
-    id: 4,
+    id: 10,
     title: "Exploratory Data Analysis on Zomato Dataset",
     //date: "",
     description:
