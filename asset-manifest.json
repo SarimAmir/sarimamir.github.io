@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.58a0c615.css",
-    "main.js": "/static/js/main.0432dc33.js",
+    "main.js": "/static/js/main.813f6faa.js",
     "static/media/Power-BI-Logo-PNG_001.png": "/static/media/Power-BI-Logo-PNG_001.db0d72d6ea76f9cb3b19.png",
     "static/media/NumPy.png": "/static/media/NumPy.74ab255361b437eb3779.png",
+    "static/media/ICO.jpg": "/static/media/ICO.0103154873661b099f3f.jpg",
     "static/media/co-1.PNG": "/static/media/co-1.34e188fbf63e1889d8b0.PNG",
     "static/media/zero day.jpg": "/static/media/zero day.df122af25bedc7217339.jpg",
     "static/media/seaborn-seeklogo.png": "/static/media/seaborn-seeklogo.b8bca06e12b079714f15.png",
@@ -26,10 +27,10 @@
     "static/media/zomato.png": "/static/media/zomato.0e5aa7bef28ef6d096de.png",
     "index.html": "/index.html",
     "main.58a0c615.css.map": "/static/css/main.58a0c615.css.map",
-    "main.0432dc33.js.map": "/static/js/main.0432dc33.js.map"
+    "main.813f6faa.js.map": "/static/js/main.813f6faa.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.0432dc33.js"
+    "static/js/main.813f6faa.js"
   ]
 }
