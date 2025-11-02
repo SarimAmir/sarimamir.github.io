@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.58a0c615.css",
-    "main.js": "/static/js/main.ba0fa21b.js",
+    "main.js": "/static/js/main.0432dc33.js",
     "static/media/Power-BI-Logo-PNG_001.png": "/static/media/Power-BI-Logo-PNG_001.db0d72d6ea76f9cb3b19.png",
     "static/media/NumPy.png": "/static/media/NumPy.74ab255361b437eb3779.png",
     "static/media/co-1.PNG": "/static/media/co-1.34e188fbf63e1889d8b0.PNG",
@@ -11,7 +11,7 @@
     "static/media/as-2.PNG": "/static/media/as-2.adc0b3c2d9d914fc6cf5.PNG",
     "static/media/Forecasting Dashboard.PNG": "/static/media/Forecasting Dashboard.f2968d642dfa060f578b.PNG",
     "static/media/customerprediction.png": "/static/media/customerprediction.a267816c5e95329449c9.png",
-    "static/media/HeroImage.jpg": "/static/media/HeroImage.f11769ef15f3e579be5a.jpg",
+    "static/media/HeroImage.jpg": "/static/media/HeroImage.6466460e963f9baa0c58.jpg",
     "static/media/VISUAL-MATPLOT AND SEABORN.png": "/static/media/VISUAL-MATPLOT AND SEABORN.cfcfed2ff614587683a7.png",
     "static/media/Microsoft_Excel_logo_PNG1.png": "/static/media/Microsoft_Excel_logo_PNG1.f19a01ab97141462ea71.png",
     "static/media/scipy-seeklogo.png": "/static/media/scipy-seeklogo.49a4051ec5c33a9f7ec1.png",
@@ -26,10 +26,10 @@
     "static/media/zomato.png": "/static/media/zomato.0e5aa7bef28ef6d096de.png",
     "index.html": "/index.html",
     "main.58a0c615.css.map": "/static/css/main.58a0c615.css.map",
-    "main.ba0fa21b.js.map": "/static/js/main.ba0fa21b.js.map"
+    "main.0432dc33.js.map": "/static/js/main.0432dc33.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.ba0fa21b.js"
+    "static/js/main.0432dc33.js"
   ]
 }
