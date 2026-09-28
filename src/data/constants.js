@@ -33,7 +33,7 @@ import greatlearning from "../images/logos/greatlearning.png"
 import ieee from "../images/logos/ieee.png"
 import customerprediction from "../images/project/customerprediction.png"
 import ICO from "../images/project/ICO.jpg"
-import tesco from "../images/project/Tesco.jpg"
+import tesco from "../images/logos/Tesco.jpg"
 
 export const Bio = {
   name: "Sarim Amir",
