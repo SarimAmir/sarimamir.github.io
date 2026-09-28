@@ -47,7 +47,7 @@ export const Bio = {
   description: "I'm a Data and Business Analyst with experience turning complex commercial, operational and customer data into clear, actionable insights. I work across Power BI, SQL, Excel, Power Query and Python, with experience in dashboard development, KPI reporting, data validation, reporting automation and stakeholder-focused analysis. With an MSc in Business Analytics and Big Data from the University of Dundee and experience across analytics, research and operational roles, I combine technical analysis with a practical approach to solving business problems.",
   //"Junior Data Analytics Professional with one year of experience specializing in data analysis and visualization. Demonstrating proficiency in transforming raw data into meaningful insights to support evidence-based decision-making processes. Skilled in a growing array of analytics software, including Python, SQL, Power BI, Excel, and Tableau. Committed to delivering valuable results and contributing to data-driven initiatives within organizations.",
   github: "https://github.com/SarimAmir",
-  resume: "https://drive.google.com/file/d/1-IdO1VBePHQh-BXPcNlxIsZ3NjtQyeFD/view?usp=drive_link",
+  resume: "https://drive.google.com/file/d/1mP9Z3BXwGXZqmW6aoafav-9MCXhNwqcL/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sarim-amir/",
   email: "mailto:sarimamir3015@gmail.com",
 };
