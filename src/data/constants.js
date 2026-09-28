@@ -33,19 +33,18 @@ import greatlearning from "../images/logos/greatlearning.png"
 import ieee from "../images/logos/ieee.png"
 import customerprediction from "../images/project/customerprediction.png"
 import ICO from "../images/project/ICO.jpg"
-
+import tesco from "../images/project/Tesco.jpg"
 
 export const Bio = {
   name: "Sarim Amir",
   roles: [
     "Data Analyst",
-    "Research Analyst",
     "Business Analyst",
     //"ML Engineer",
     //"Data Analyst",
     //"Dashboard Designer",
   ],
-  description: "I'm a detail-oriented Business Analytics postgraduate at the University of Dundee with hands-on experience in data analysis, visualisation, and due diligence research. I enjoy turning complex information into clear, actionable insights and have worked across diverse projects involving Excel, Power BI, Python, Machine Learning and large datasets. With a background in research and business intelligence, I bring both analytical rigour and a practical, problem-solving mindset to every task.",
+  description: "I'm a Data and Business Analyst with experience turning complex commercial, operational and customer data into clear, actionable insights. I work across Power BI, SQL, Excel, Power Query and Python, with experience in dashboard development, KPI reporting, data validation, reporting automation and stakeholder-focused analysis. With an MSc in Business Analytics and Big Data from the University of Dundee and experience across analytics, research and operational roles, I combine technical analysis with a practical approach to solving business problems.",
   //"Junior Data Analytics Professional with one year of experience specializing in data analysis and visualization. Demonstrating proficiency in transforming raw data into meaningful insights to support evidence-based decision-making processes. Skilled in a growing array of analytics software, including Python, SQL, Power BI, Excel, and Tableau. Committed to delivering valuable results and contributing to data-driven initiatives within organizations.",
   github: "https://github.com/SarimAmir",
   resume: "https://drive.google.com/file/d/1-IdO1VBePHQh-BXPcNlxIsZ3NjtQyeFD/view?usp=drive_link",
@@ -106,7 +105,7 @@ export const education = [
     img: dundee,
     school: "University of Dundee",
     date: "August 2024 - September 2025",
-    grade: " Yet to be determined",
+    grade: "Merit",
     desc: "I completed my MSc in Business Analytics and Big Data at the University of Dundee, where I gained advanced expertise in data analysis, visualisation, predictive modelling, big data processing, and business intelligence tools. For my master’s project, I worked with F1 Arcade under the guidance of their Marketing Manager to analyse data from Watch Parties. This involved evaluating marketing performance, measuring ROI across channels, and identifying opportunities to optimise ticketing and promotional strategies. The project resulted in actionable, data-driven recommendations that helped pinpoint the most effective marketing channels, improve customer retention, and uncover cost-saving opportunities, strengthening F1 Arcade’s approach to event marketing.",
     degree: "MSc in Business Analytics and Big Data",
   },
@@ -126,55 +125,81 @@ export const education = [
 export const experiences = [
   {
     id: 1,
-    img: f1arcade,
-    role: "Business Analytics Intern",
-    company: "F1 Arcade",
-    date: "May 2025 - July 2025",
-    desc: "At F1 Arcade, I developed interactive Power BI dashboards that brought key marketing metrics like CTR, CAC, and ROI to life, enabling the team to see, at a glance, which campaigns were truly hitting the mark. By integrating CRM, Google Analytics, and campaign data, I helped uncover revenue patterns and spot anomalies that led to timely strategy shifts. I translated datasets into actionable insights, directly influencing campaign optimisation. My meticulous approach to data cleaning and validation ensured every decision was based on reliable, accurate information.",  
+    img: tesco,
+    role: "Customer Support Manager (Customer Support Analyst)",
+    company: "Tesco CEC",
+    date: "November 2025 - Present",
+    desc: "At Tesco, I analyse customer interactions, order and delivery data to identify recurring trends, service issues and opportunities for operational improvement. I manage a range of customer queries across accounts, products, orders, deliveries and refunds, using case information to investigate issues and support effective resolutions. Alongside customer support, I maintain accurate customer and case records to ensure reliable operational data, while working collaboratively with colleagues to resolve complex issues and deliver consistent service outcomes.",  
     skills: [
-    "Statistical Data Analysis",
-    "Power BI",
-    "Data cleaning and validation",
-    "CTR, CAC, and ROI analysis",
-    "DAX Queries",
-    "Microsoft Excel",
-    "Data Visualization",
+    "Customer & Operational Data Analysis",
+    "Trend & Issue Identification",
+    "Data Accuracy & Record Management",
+    "Case Investigation & Resolution",
+    "Customer Account Management",
+    "Problem Solving",
+    "Operational Decision Support",
+    "Cross-functional Collaboration",
+    "Data Confidentiality",
+    "Customer Service",
     ]
   },
   {
     id: 2,
-    img: metaglobal,
-    role: "Research Analyst",
-    company: "Meta Global Screening Services - SMC Private Limited",
-    date: "March 2024 - August 2024",
-    desc: "In my role at Meta Global Screening Services, I conducted rigorous due diligence investigations, sourcing intelligence from both regulatory and reputational channels to support client risk assessments. I often handled sensitive inquiries with complete discretion, ensuring findings remained confidential and ethically sound. From initial research to final delivery, I produced high-quality reports that distilled complex data into clear, actionable insights. These outputs directly influenced client compliance decisions, giving them the confidence to act on well-substantiated intelligence.",
+    img: f1arcade,
+    role: "Business Analytics Intern",
+    company: "F1 Arcade",
+    date: "May 2025 - July 2025",
+    desc: "At F1 Arcade, I developed Power BI dashboards and automated reporting solutions using CRM, marketing, commercial and performance data, improving reporting efficiency by 20% and reducing manual reporting by 30%. I analysed campaign, conversion and revenue performance to identify trends and provide actionable business insights, while developing SQL models that integrated data from multiple sources and improved query performance by 15%. I also worked with stakeholders to understand their reporting requirements and translate them into meaningful KPIs, dashboards and analytical solutions.",  
     skills: [
-      "Regulatory and reputational research",
-      "Due diligence investigations",
-      "Confidential data handling",
-      "Risk assessment analysis",   
-      "Complex data consolidation",
-      "TCompliance-focused reporting",
-      "Client decision support"
+    "Power BI",
+    "SQL",
+    "Power Query",
+    "DAX",
+    "CRM Analysis",
+    "Commercial Analysis",
+    "KPI Reporting",
+    "Campaign & Conversion Analysis",
+    "Data Validation & Automation",
+    "Stakeholder Engagement",
     ]
   },
   {
     id: 3,
+    img: metaglobal,
+    role: "Research Analyst",
+    company: "Meta Global Screening Services - SMC Private Limited",
+    date: "March 2024 - August 2024",
+    desc: "At Meta Global Screening Services, I analysed large and complex datasets using SQL, Excel and Python, improving reporting accuracy and data quality by 30%. My work involved cleaning, validating and investigating data to identify inconsistencies and maintain reliable analytical outputs. I also conducted recurring and ad hoc analysis to identify trends and operational issues, translating complex findings into clear reports and insights for technical and non-technical stakeholders while handling sensitive information responsibly.",
+    skills: [
+      "SQL",
+      "Excel",
+      "Python",
+      "Data Analysis",   
+      "Data Cleaning & Validation",
+      "Data Investigation",
+      "Ad Hoc Analysis",
+      "Stakeholder Reporting",
+      "Sensitive Data Handling",
+    ]
+  },
+  {
+    id: 4,
     img: njv,
     role: "Data Coordinator",
     company: "NJV School (Adopted by Akhuwat)",
     date: "February 2023 - February 2024 ",
-    desc: "Led the Data Department, overseeing the rollout of a Campus Management System to streamline academic and operational workflows. Built KPI-focused Power BI dashboards and SQL pipelines to deliver accurate, timely reporting for leadership. Conducted trend and gap analysis to improve student retention and operational efficiency, while training teammates on data literacy, validation, and dashboard interpretation. Strengthened the organisation’s analytical capability, ensuring decisions were informed by reliable, actionable insights.",
+    desc: "At NJV School, I led the Data Department, overseeing reporting and supporting the rollout of a new Campus Management System through data migration, validation and implementation. I developed KPI-focused Power BI dashboards and SQL pipelines to analyse academic and operational performance, improving reporting efficiency by 22% and performance visibility by 18%. Through trend and gap analysis, I identified opportunities to improve student retention and operational efficiency, while producing recurring operational and expense reports to support management decision-making. I also trained colleagues on Excel, Power BI and data validation, strengthening data literacy and self-service reporting capability across the organisation.",
     skills: [
-    "Campus Management System deployment",
-    "KPI-focused Power BI dashboards",
-    "SQL pipeline development",
-    "Academic and operational KPIs",
+    "Data Department Leadership",
+    "Power BI",
+    "SQL Pipeline Development",
+    "KPI & Performance Reporting",
     "Trend and gap analysis",
-    "Data-driven decision support",
-    "Departmental coordination",
-    "Compliance-aligned reporting",
-    "Data literacy and validation training for teammates",
+    "Student Retention Analysis",
+    "Campus Management System Implementation",
+    "Data Migration and Validation",
+    "Operational & Expense Reporting",
+    "Colleague Training & Data Literacy",
     ],
   }
   
@@ -274,23 +299,7 @@ export const skills = [
 ];
 
 export const projects = [
-  {
-    id: 2,
-    title: "Global Coffee Insights – Power BI",
-    //date: "",
-    description:
-      "Designed an interactive Power BI dashboard using data from the International Coffee Organization (ICO) to visualize global coffee production, consumption, and pricing trends. The report highlights key metrics such as top producing and consuming countries, global consumption growth, and price disparities between Arabica, Robusta, and composite indices. Advanced DAX measures were applied to calculate farmer share percentages, production-consumption balance, and average price indicators. The dashboard integrates geographic, temporal, and comparative visualizations to tell the story of how coffee flows from producers to consumers worldwide, uncovering insights into trade patterns, price volatility, and market dominance. Styled with a coffee-themed aesthetic, it blends data storytelling with design, making analytics both informative and visually engaging.",
-    image:
-      ICO,
-    tags: [
-      "Power BI",
-      "DAX",
-      "Power Query",
-    ],
-    category: "Visualization & BI",
-    github: "https://github.com/SarimAmir/Global-Coffee-Insights-Power-BI/blob/main/Global%20Coffee%20Insights%20%E2%80%93%20Power%20BI.pdf",
   
-  },
   {
     id: 1,
     title: "FYP: Zero-Day Attack Detection System using Machine Learning and Deep Learning",
@@ -312,6 +321,23 @@ export const projects = [
     ],
     category: "ML & DL",
     github: "https://github.com/SarimAmir/Intrusion-Detection-Using-Machine-Learning-And-Deep-Learning-FYP-/blob/main/README.md",
+  },
+  {
+    id: 2,
+    title: "Global Coffee Insights – Power BI",
+    //date: "",
+    description:
+      "Designed an interactive Power BI dashboard using data from the International Coffee Organization (ICO) to visualize global coffee production, consumption, and pricing trends. The report highlights key metrics such as top producing and consuming countries, global consumption growth, and price disparities between Arabica, Robusta, and composite indices. Advanced DAX measures were applied to calculate farmer share percentages, production-consumption balance, and average price indicators. The dashboard integrates geographic, temporal, and comparative visualizations to tell the story of how coffee flows from producers to consumers worldwide, uncovering insights into trade patterns, price volatility, and market dominance. Styled with a coffee-themed aesthetic, it blends data storytelling with design, making analytics both informative and visually engaging.",
+    image:
+      ICO,
+    tags: [
+      "Power BI",
+      "DAX",
+      "Power Query",
+    ],
+    category: "Visualization & BI",
+    github: "https://github.com/SarimAmir/Global-Coffee-Insights-Power-BI/blob/main/Global%20Coffee%20Insights%20%E2%80%93%20Power%20BI.pdf",
+  
   },
 
   {
